@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7CDA52442D8DB88D00BDFE21 /* ButtonsInMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDA52352D8DB88D00BDFE21 /* ButtonsInMainView.swift */; };
+		7CDA52452D8DB88D00BDFE21 /* EventModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDA52362D8DB88D00BDFE21 /* EventModel.swift */; };
+		7CDA52462D8DB88D00BDFE21 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDA52372D8DB88D00BDFE21 /* InfoView.swift */; };
+		7CDA52472D8DB88D00BDFE21 /* KRSK_Notify_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDA52382D8DB88D00BDFE21 /* KRSK_Notify_AppApp.swift */; };
+		7CDA52482D8DB88D00BDFE21 /* ListCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDA52392D8DB88D00BDFE21 /* ListCellView.swift */; };
+		7CDA52492D8DB88D00BDFE21 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDA523A2D8DB88D00BDFE21 /* ListView.swift */; };
+		7CDA524A2D8DB88D00BDFE21 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDA523B2D8DB88D00BDFE21 /* ListViewModel.swift */; };
+		7CDA524B2D8DB88D00BDFE21 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDA523C2D8DB88D00BDFE21 /* MainScreen.swift */; };
+		7CDA524C2D8DB88D00BDFE21 /* MainScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDA523D2D8DB88D00BDFE21 /* MainScreenViewModel.swift */; };
+		7CDA524D2D8DB88D00BDFE21 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDA523E2D8DB88D00BDFE21 /* MapView.swift */; };
+		7CDA524E2D8DB88D00BDFE21 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDA523F2D8DB88D00BDFE21 /* MapViewModel.swift */; };
+		7CDA524F2D8DB88D00BDFE21 /* MockEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDA52402D8DB88D00BDFE21 /* MockEvents.swift */; };
+		7CDA52502D8DB88D00BDFE21 /* SettingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDA52412D8DB88D00BDFE21 /* SettingsModel.swift */; };
+		7CDA52512D8DB88D00BDFE21 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDA52422D8DB88D00BDFE21 /* SettingsView.swift */; };
+		7CDA52522D8DB88D00BDFE21 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CDA52322D8DB88D00BDFE21 /* Preview Assets.xcassets */; };
+		7CDA52532D8DB88D00BDFE21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CDA52342D8DB88D00BDFE21 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7C166C232D9561320019A602 /* firebase-ios-sdk */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "firebase-ios-sdk"; path = "/Users/a1234/Library/Developer/Xcode/DerivedData/KRSK-Notify-App-gcojtlyfplunmfdmlojwvvhbxwrs/SourcePackages/checkouts/firebase-ios-sdk"; sourceTree = "<absolute>"; };
+		7C43BD792D8DB16F00BF43FE /* KRSK-Notify-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KRSK-Notify-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CDA52322D8DB88D00BDFE21 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7CDA52342D8DB88D00BDFE21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CDA52352D8DB88D00BDFE21 /* ButtonsInMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsInMainView.swift; sourceTree = "<group>"; };
+		7CDA52362D8DB88D00BDFE21 /* EventModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventModel.swift; sourceTree = "<group>"; };
+		7CDA52372D8DB88D00BDFE21 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		7CDA52382D8DB88D00BDFE21 /* KRSK_Notify_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KRSK_Notify_AppApp.swift; sourceTree = "<group>"; };
+		7CDA52392D8DB88D00BDFE21 /* ListCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCellView.swift; sourceTree = "<group>"; };
+		7CDA523A2D8DB88D00BDFE21 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		7CDA523B2D8DB88D00BDFE21 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		7CDA523C2D8DB88D00BDFE21 /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
+		7CDA523D2D8DB88D00BDFE21 /* MainScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewModel.swift; sourceTree = "<group>"; };
+		7CDA523E2D8DB88D00BDFE21 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		7CDA523F2D8DB88D00BDFE21 /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		7CDA52402D8DB88D00BDFE21 /* MockEvents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockEvents.swift; sourceTree = "<group>"; };
+		7CDA52412D8DB88D00BDFE21 /* SettingsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsModel.swift; sourceTree = "<group>"; };
+		7CDA52422D8DB88D00BDFE21 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		7C166C1D2D9552F20019A602 /* Service */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Service;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7C43BD762D8DB16F00BF43FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7C43BD702D8DB16F00BF43FE = {
+			isa = PBXGroup;
+			children = (
+				7CDA52432D8DB88D00BDFE21 /* KRSK-Notify-App */,
+				7C43BD7A2D8DB16F00BF43FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7C43BD7A2D8DB16F00BF43FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7C43BD792D8DB16F00BF43FE /* KRSK-Notify-App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CDA52332D8DB88D00BDFE21 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7CDA52322D8DB88D00BDFE21 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7CDA52432D8DB88D00BDFE21 /* KRSK-Notify-App */ = {
+			isa = PBXGroup;
+			children = (
+				7C166C1D2D9552F20019A602 /* Service */,
+				7CDA52542D8DB94F00BDFE21 /* Screens */,
+				7CDA52332D8DB88D00BDFE21 /* Preview Content */,
+				7CDA52342D8DB88D00BDFE21 /* Assets.xcassets */,
+			);
+			path = "KRSK-Notify-App";
+			sourceTree = "<group>";
+		};
+		7CDA52542D8DB94F00BDFE21 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				7CDA52552D8DB96000BDFE21 /* MainScreen */,
+				7CDA52382D8DB88D00BDFE21 /* KRSK_Notify_AppApp.swift */,
+				7C166C232D9561320019A602 /* firebase-ios-sdk */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		7CDA52552D8DB96000BDFE21 /* MainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				7CDA52582D8DB97800BDFE21 /* ViewModels */,
+				7CDA52572D8DB97300BDFE21 /* Views */,
+				7CDA52562D8DB96B00BDFE21 /* Models */,
+			);
+			path = MainScreen;
+			sourceTree = "<group>";
+		};
+		7CDA52562D8DB96B00BDFE21 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7CDA52362D8DB88D00BDFE21 /* EventModel.swift */,
+				7CDA52402D8DB88D00BDFE21 /* MockEvents.swift */,
+				7CDA52412D8DB88D00BDFE21 /* SettingsModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7CDA52572D8DB97300BDFE21 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7CDA523C2D8DB88D00BDFE21 /* MainScreen.swift */,
+				7CDA52352D8DB88D00BDFE21 /* ButtonsInMainView.swift */,
+				7CDA52372D8DB88D00BDFE21 /* InfoView.swift */,
+				7CDA52392D8DB88D00BDFE21 /* ListCellView.swift */,
+				7CDA523A2D8DB88D00BDFE21 /* ListView.swift */,
+				7CDA523E2D8DB88D00BDFE21 /* MapView.swift */,
+				7CDA52422D8DB88D00BDFE21 /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7CDA52582D8DB97800BDFE21 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				7CDA523B2D8DB88D00BDFE21 /* ListViewModel.swift */,
+				7CDA523D2D8DB88D00BDFE21 /* MainScreenViewModel.swift */,
+				7CDA523F2D8DB88D00BDFE21 /* MapViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7C43BD782D8DB16F00BF43FE /* KRSK-Notify-App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C43BD872D8DB17000BF43FE /* Build configuration list for PBXNativeTarget "KRSK-Notify-App" */;
+			buildPhases = (
+				7C43BD752D8DB16F00BF43FE /* Sources */,
+				7C43BD762D8DB16F00BF43FE /* Frameworks */,
+				7C43BD772D8DB16F00BF43FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				7C166C1D2D9552F20019A602 /* Service */,
+			);
+			name = "KRSK-Notify-App";
+			packageProductDependencies = (
+			);
+			productName = "KRSK-Notify-App";
+			productReference = 7C43BD792D8DB16F00BF43FE /* KRSK-Notify-App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7C43BD712D8DB16F00BF43FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					7C43BD782D8DB16F00BF43FE = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = 7C43BD742D8DB16F00BF43FE /* Build configuration list for PBXProject "KRSK-Notify-App" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7C43BD702D8DB16F00BF43FE;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				7C166C222D95601D0019A602 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 7C43BD7A2D8DB16F00BF43FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7C43BD782D8DB16F00BF43FE /* KRSK-Notify-App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7C43BD772D8DB16F00BF43FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CDA52522D8DB88D00BDFE21 /* Preview Assets.xcassets in Resources */,
+				7CDA52532D8DB88D00BDFE21 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7C43BD752D8DB16F00BF43FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CDA52442D8DB88D00BDFE21 /* ButtonsInMainView.swift in Sources */,
+				7CDA52452D8DB88D00BDFE21 /* EventModel.swift in Sources */,
+				7CDA52462D8DB88D00BDFE21 /* InfoView.swift in Sources */,
+				7CDA52472D8DB88D00BDFE21 /* KRSK_Notify_AppApp.swift in Sources */,
+				7CDA52482D8DB88D00BDFE21 /* ListCellView.swift in Sources */,
+				7CDA52492D8DB88D00BDFE21 /* ListView.swift in Sources */,
+				7CDA524A2D8DB88D00BDFE21 /* ListViewModel.swift in Sources */,
+				7CDA524B2D8DB88D00BDFE21 /* MainScreen.swift in Sources */,
+				7CDA524C2D8DB88D00BDFE21 /* MainScreenViewModel.swift in Sources */,
+				7CDA524D2D8DB88D00BDFE21 /* MapView.swift in Sources */,
+				7CDA524E2D8DB88D00BDFE21 /* MapViewModel.swift in Sources */,
+				7CDA524F2D8DB88D00BDFE21 /* MockEvents.swift in Sources */,
+				7CDA52502D8DB88D00BDFE21 /* SettingsModel.swift in Sources */,
+				7CDA52512D8DB88D00BDFE21 /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7C43BD852D8DB17000BF43FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7C43BD862D8DB17000BF43FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7C43BD882D8DB17000BF43FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KRSK-Notify-App/Preview Content\"";
+				DEVELOPMENT_TEAM = V72L7TD2G9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.KRSK-Notify-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7C43BD892D8DB17000BF43FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KRSK-Notify-App/Preview Content\"";
+				DEVELOPMENT_TEAM = V72L7TD2G9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.KRSK-Notify-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7C43BD742D8DB16F00BF43FE /* Build configuration list for PBXProject "KRSK-Notify-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C43BD852D8DB17000BF43FE /* Debug */,
+				7C43BD862D8DB17000BF43FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C43BD872D8DB17000BF43FE /* Build configuration list for PBXNativeTarget "KRSK-Notify-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C43BD882D8DB17000BF43FE /* Debug */,
+				7C43BD892D8DB17000BF43FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7C166C222D95601D0019A602 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.10.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+	};
+	rootObject = 7C43BD712D8DB16F00BF43FE /* Project object */;
+}
